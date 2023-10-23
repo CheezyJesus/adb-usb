@@ -1,5 +1,5 @@
-MCU = at90usb1286 # Teensy++ 2.0
-#MCU = atmega32u4  # Teensy 2.0/Pro Micro
+#MCU = at90usb1286 # Teensy++ 2.0
+MCU = atmega32u4  # Teensy 2.0/Pro Micro
 
 FLASH = teensy_loader_cli -mmcu=$(MCU) -w main.hex # Teensy
 #FLASH = avrdude -p atmega32u4 -c avr109 -P /dev/ttyACM0 -D -U main.hex # Pro Micro
